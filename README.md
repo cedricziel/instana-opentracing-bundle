@@ -1,5 +1,7 @@
 # [WIP] Instana OpenTracing Bundle
 
+**Note, this project is not affiliated with, nor endorsed by instana**
+
 This bundle aims to explore how to integrate a PHP application
 into Instanas tracing tool.
 
@@ -25,8 +27,6 @@ Currently, the bundle can:
 One should be able to extend the tracing by simply injecting the
 `opentracing.tracer.default` service into any of your services,
 create a new span and it's done.
-
-**Note, this project is not affiliated with, nor endorsed by instana**
 
 ![Overview](Resources/docs/overview.png)
 
